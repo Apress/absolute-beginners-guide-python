@@ -1,0 +1,49 @@
+   html {
+       background: white;
+   }
+   body {
+       width: 960px;
+       margin: 0 auto;
+       font-family: Helvetica;
+   }
+   section, header, footer, nav {
+       display: block;
+   }
+   div, section, h1, h2, h3, p {
+       margin: 0;
+       padding: 0;
+   }
+	
+   header {
+       background: dodgerblue;
+       height: 100px;
+       padding: 12px 0 0 32px;
+   }
+   
+   nav {
+		margin-bottom: 16px;
+	}
+
+   h1 { 
+       font-weight: normal;
+       color: white;
+   }
+   h2 {
+       font-weight: normal;
+       font-variant: small-caps;
+   }
+   p {
+       line-height: 1.5;
+   }
+
+   .col1 {
+       float: left;
+       padding-left: 32px;
+       width: 512px;
+   }
+	
+   .col2 {
+       float: right;
+	   padding-right: 32px;
+       width: 352px;    
+   }

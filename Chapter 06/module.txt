@@ -1,0 +1,18 @@
+import turtle
+
+turtle.shape("turtle")
+
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+
+turtle.pendown()
+turtle.penup() 
+turtle.pensize()
+
+turtle.color()
+turtle.pencolor()
+
+turtle.reset()
+turtle.clear()
+turtle.write()
