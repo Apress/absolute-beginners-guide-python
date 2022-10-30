@@ -104,8 +104,8 @@ while running:
          bullet_state = "nofire"
          gamewindow.blit(exp, (ufo_X_pos, ufo_Y_pos)) #show explosion image
          #place ufo back on screen in random position
-         ufo_rect.left = random.randint(0, 736) 
-         ufo_rect.left = random.randint(50, 150)
+         ufo_rect.centerx = random.randint(0, 736) 
+         ufo_rect.centery = random.randint(50, 300)
 
     #keypress event handler
     for event in pygame.event.get():
@@ -118,7 +118,7 @@ while running:
                 x = x + 10 #shift image right 10 pixels
             elif event.key == pygame.K_SPACE:  # file bullet
                 if bullet_state == "nofire":
-                    bullet_X = x + 30 #move bullet to rocket position
+                    bullet_X = x + 40 #move bullet to rocket position
                     gamewindow.blit(bulletImage, (bullet_X, bullet_Y))
                     bullet_state = "fire"
 
