@@ -8,7 +8,7 @@ This repository accompanies [*The Absolute Beginner's Guide to Python Programmin
 Download the files as a zip using the green button, or clone the repository to your machine using Git.
 
 ## Video Resources
-We are developing some procedure demonstrations and tutorials for Python as described in the accompanying book [*The Absolute Beginner's Guide to Python Programming*]. For more details see link https://www.elluminetpress.com/resources/python/
+We are developing some procedure demonstrations and tutorials for Python as described in the accompanying book *The Absolute Beginner's Guide to Python Programming*. For more details see link https://www.elluminetpress.com/resources/python/
 
 ## Releases
 
