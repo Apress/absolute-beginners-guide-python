@@ -14,15 +14,17 @@ y=280
 
 fontColor=(0,150,250)
 
+gameFont = pygame.font.Font('C:\Windows\Fonts\helvetica.ttf', 32)
+
+gameText = gameFont.render('Alien Invader', True, 'White')
+
+gamewindow.blit(gameText,(200,44))
+
 while running: 
     #add image to game window
     gamewindow.blit(sprite, (x,y))
 
-    gameFont = pygame.font.Font('C:\Windows\Fonts\helvetica.ttf', 32)
 
-    gameText = gameFont.render('Alien Invader', True, 'White')
-
-    gamewindow.blit(gameText,(200,44))
 
     #update the game window display
     pygame.display.update()
