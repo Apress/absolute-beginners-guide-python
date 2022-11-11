@@ -18,7 +18,7 @@ To read a file, use the pickle.load() method. Use: pickle.load(file-name-to-read
 
 ***
 
-On **page 111** [init missing double underscores]:
+On **page 111** [init method missing double underscores]:
  
 Line should be: def __init__(self, name, dob, email):
 
