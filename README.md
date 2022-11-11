@@ -10,6 +10,10 @@ Download the files as a zip using the green button, or clone the repository to y
 ## Video Resources
 We are developing some procedure demonstrations and tutorials for Python as described in the accompanying book *The Absolute Beginner's Guide to Python Programming*. For more details see link https://www.elluminetpress.com/resources/python/
 
+## Bonuses
+
+In the 'solutions' folder you'll find model answers to the lab exercises. Also, to enhance your learning experience, you'll find various bonus sections in 'bonuses' folder and the various corresponding chapter folders. These are saved as PDF files and are intended to expand upon the sections described in the book.
+
 ## Contributions
 
 See the file Contributing.md for more information on how you can contribute to this repository.
