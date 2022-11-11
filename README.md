@@ -10,14 +10,10 @@ Download the files as a zip using the green button, or clone the repository to y
 ## Video Resources
 We are developing some procedure demonstrations and tutorials for Python as described in the accompanying book *The Absolute Beginner's Guide to Python Programming*. For more details see link https://www.elluminetpress.com/resources/python/
 
-## Releases
-
-Release v1.0 corresponds to the code in the published book, without corrections or updates.
-
 ## Contributions
 
 See the file Contributing.md for more information on how you can contribute to this repository.
 
-## Errata & Corrections
+## Errata & Updates
 
 See the file errata.md for more information on updates and corrections.
