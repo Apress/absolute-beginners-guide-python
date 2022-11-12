@@ -12,7 +12,7 @@ When opening a file for **reading**, use either of the following...
 
 ***
 
-On **page 81** [no .read() method]:
+On **page 81** [no .read() method, should be .load()]:
  
 In binary file operations, to read a file, use the **pickle.load()** method. Use: **pickle.load(file-name-to-read-from)**
 
