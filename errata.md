@@ -20,6 +20,6 @@ In binary file operations, to read a file, use the **pickle.load()** method. Use
 
 On **page 111** [init method missing double underscores]:
  
-Line should be: def __init__(self, name, dob, email):
+Line should be: def &#95;&#95;init&#95;&#95;(self, name, dob, email):
 
 ***
