@@ -16,4 +16,4 @@ In the 'solutions' folder you'll find model answers to the lab exercises. Also, 
 
 ## Errata & Updates
 
-See the file errata.md for more information on updates and corrections.
+See the file errata.md for more information on updates and corrections. See link https://github.com/Apress/absolute-beginners-guide-python/blob/main/errata.md
