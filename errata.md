@@ -24,8 +24,8 @@ Line should be: def &#95;&#95;init&#95;&#95;(self, name, dob, email):
 
 ***
 
-On **page 114** [super() function allows access to parent properties]:
+On **page 114** [super() function allows access to parent methods]:
  
-Line should be:  if you want to allow the child class access to the properties defined in the parent class use super(). M
+When defining your child classes, you might need to access methods defined in the parent. To do this, use the super() function. The super() function allows us to refer to the parent class explicitly.
 
 ***
