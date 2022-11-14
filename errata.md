@@ -23,3 +23,9 @@ On **page 111** [init method missing double underscores]:
 Line should be: def &#95;&#95;init&#95;&#95;(self, name, dob, email):
 
 ***
+
+On **page 114** [super() function allows access to parent properties]:
+ 
+Line should be:  if you want to allow the child class access to the properties defined in the parent class use super(). M
+
+***
