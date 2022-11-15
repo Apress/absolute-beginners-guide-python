@@ -28,8 +28,7 @@ class Circle(Polygon):
         self.radius = radius
     def getArea(self):
         return pi*self.radius**2
-    def getName(self):
-        return "Circle"
+
 
 
 squareObj = Square(7)
@@ -38,13 +37,9 @@ circleObj = Circle(7)
 
 print(circleObj.name)
 
-print(squareObj.name)
+print(squareObj.getArea())
 
 print(circleObj.getName())
 
-print(squareObj.getArea())
 
-print(squareObj.getName())
-
-print(circleObj.getArea())
 
