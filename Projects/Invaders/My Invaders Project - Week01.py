@@ -1,8 +1,8 @@
 import pygame
 
-class Ship():
+class Rocket():
     def __init__(self, screen):
-        #Initialize the ship, and set its starting position.
+        #Initialize rocket, and set starting position.
         self.screen = screen
 
         # Load the rocket image
@@ -14,13 +14,12 @@ class Ship():
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
-        # Start each new ship at the bottom center of the screen. 
+        # Set rocket to the bottom center of screen
         self.rect.centerx = self.screen_rect.centerx
         self.rect.bottom = self.screen_rect.bottom
         
     def draw(self):
-        #Draw the ship at current location
-        #self.screen.blit(self.image, self.rect)
+        #Draw the rocket at current location
         self.screen.blit(self.image, self.rect)
 
 
@@ -31,10 +30,10 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("My Invaders")
 
-# Make a ship object.
-ship = Ship(screen)
+# Make a rocket object.
+rocket = Rocket(screen)
 
-# Set the background color.
+# Set the background image.
 background = pygame.image.load("bg.jpg")
 
 #create our game clock
@@ -65,15 +64,15 @@ while running:
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RIGHT:
                 #Move the ship to the right.
-                ship.rect.centerx += 10
+                rocket.rect.centerx += 10
             if event.key == pygame.K_LEFT:
                 #Move the ship to the left.
-                ship.rect.centerx -= 10
+                rocket.rect.centerx -= 10
 
 
 
-    # draw the ship
-    ship.draw()
+    # draw the rocket
+    rocket.draw()
 
     
 
