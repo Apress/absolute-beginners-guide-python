@@ -23,6 +23,9 @@ class Rocket():
         self.screen.blit(self.image, self.rect)
 
 
+
+
+#main program
         
 
 # Initialize game and create a screen object.
@@ -46,9 +49,7 @@ pygame.key.set_repeat(1, 25)
 running = 1
 
 
-
-
-# Start  game loop.
+# Game loop.
 while running:
 
     #execute loop at 25 frames per second
@@ -56,8 +57,9 @@ while running:
 
     # Clear screen a - add background image.
     screen.blit(background, (0, 0))
+
         
-    # Watch for keyboard and mouse events.
+    # Keyboard event handler.
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running=0
@@ -70,11 +72,9 @@ while running:
                 rocket.rect.centerx -= 10
 
 
-
     # draw the rocket
     rocket.draw()
 
-    
 
     # update screen.
     pygame.display.update()
