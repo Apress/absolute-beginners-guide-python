@@ -12,7 +12,7 @@ We are developing some procedure demonstrations and tutorials for Python as desc
 
 ## Bonuses
 
-In the 'solutions' folder you'll find model answers to the lab exercises. Also, to enhance your learning experience, you'll find various bonus sections in the 'bonuses' folder and the various corresponding chapter folders. These are saved as PDF files and are intended to expand upon the sections described in the book.
+In the 'solutions' folder you'll find model answers to the lab exercises. Also, to enhance your learning experience, you'll find various bonus sections in the 'bonuses' folder and in the various corresponding chapter folders. These are saved as PDF files and are intended to expand upon the sections described in the book.
 
 ## Errata & Updates
 
